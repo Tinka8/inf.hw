@@ -1,17 +1,17 @@
-# variables and arrays 
-value = 0
-numbers = []
+# premenné a polia 
+hodnota = 0
+cisla = []
 
 
-# append number to numbers array
-while value < 10:
-    number = int(input("zadaj číslo: "))
-    numbers.append(number)
+# pridava cislo do pola cisla
+while hodnota < 10:
+    cislo = int(input("zadaj číslo: "))
+    cisla.append(cislo)
 
-# if number is divisible by 3 with 0 rest then enlarge value by 1 
-    if number % 3 == 0:
-        value += 1
+# ked je cislo delitelne 3 s 0 zvyskom zvysi sa hodnota o 1 
+    if cislo % 3 == 0:
+        hodnota += 1
        
 
-print(sum(numbers))
-print(*numbers)
+print(sum(cisla))
+print(*cisla)
