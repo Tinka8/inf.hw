@@ -5,7 +5,7 @@ numbers = []
 
 # append number to numbers array
 while value < 10:
-    number = int(input("write number: "))
+    number = int(input("write a number: "))
     numbers.append(number)
 
 # if number is divisible by 3 with 0 rest then enlarge value by 1 
