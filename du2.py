@@ -3,7 +3,7 @@ total = 0
 
 # define num 
 while True:
-    operation = input("zadaj operáciu(+-/*): ")
+    operation = input("zadaj operáciu(+-/* alebo koniec): ")
 
 # write koniec ends program
     if operation == "koniec":
@@ -27,7 +27,7 @@ while True:
     elif operation == "/":
         num = float(input("zadaj číslo: "))
         subtotal = total / num
-        subtotal= round(subtotal, 2)
+        subtotal = round(subtotal, 2)
         print(total, "/", num, "=", subtotal)
         total = subtotal
 
