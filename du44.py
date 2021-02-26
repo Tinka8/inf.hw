@@ -1,7 +1,7 @@
 def max_pair_sum(num_list):
 
     if len(num_list) < 2:
-        return 'Nedava smysl'
+        return 'Nedava zmysel'
 
     previous = 0
     maximum = 0
